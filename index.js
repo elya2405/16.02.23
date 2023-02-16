@@ -26,7 +26,7 @@ for (let i = 0; i < example1.length; i++) {
 
 //вывести все эелементы из второго многоуровневого массива(example2)
 for (let i = 0; i < example2.length; i++) {
-  for (let j = 0; j < example2.length; j++) {
+  for (let j = 0; j < example2[i].length; j++) {
     console.log(example2[i][j]);
   }
 }
