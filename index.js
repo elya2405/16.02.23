@@ -9,3 +9,8 @@ console.log(example1.length);
 console.log(example2.length);
 console.log(example1[2]);
 console.log(example2[2]);
+
+console.log(example1[4]);
+console.log(example1[7]);
+
+console.log(example2[1][1]);
