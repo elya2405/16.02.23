@@ -39,3 +39,13 @@ if (example3.includes(10)) {
 } else {
   console.log("no");
 }
+
+// задача проверяющее есть ли элемент из одного массива во второй
+let example4 = [5, 4, 1, 55, 1, 0, 2];
+let example5 = [3, 11, 4, 15, 1, 2, 77];
+
+for (let i = 0; i < example4.length; i++) {
+  if (example5.includes(example4[i])) {
+    console.log(example4[i]);
+  }
+}
