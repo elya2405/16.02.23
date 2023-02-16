@@ -14,3 +14,7 @@ console.log(example1[4]);
 console.log(example1[7]);
 
 console.log(example2[1][1]);
+
+//другой вариант
+let test = example2[2];
+console.log(test[1]);
