@@ -49,3 +49,11 @@ for (let i = 0; i < example4.length; i++) {
     console.log(example4[i]);
   }
 }
+
+let example6 = ["a", "c", "f", "d", "b"];
+console.log(example6.reverse()); //reverse делает наоброт
+//другой вариант
+console.log(example6);
+
+example6.sort(); //sort сортирует
+console.log(example6);
