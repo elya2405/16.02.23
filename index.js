@@ -18,3 +18,7 @@ console.log(example2[1][1]);
 //другой вариант
 let test = example2[2];
 console.log(test[1]);
+
+for (let i = 0; i < example1.length; i++) {
+  console.log(example1[i]);
+}
