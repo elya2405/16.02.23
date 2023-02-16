@@ -61,6 +61,6 @@ console.log(example6);
 //сортировка чисел
 let example7 = [10, 51, 44, 2, 3, 6];
 example7.sort(function (a, b) {
-  return a - b;
+  return a - b; //если надо отсортировать в убывающем порядке делаем b - a
 });
 console.log(example7);
