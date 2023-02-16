@@ -57,3 +57,10 @@ console.log(example6);
 
 example6.sort(); //sort сортирует
 console.log(example6);
+
+//сортировка чисел
+let example7 = [10, 51, 44, 2, 3, 6];
+example7.sort(function (a, b) {
+  return a - b;
+});
+console.log(example7);
